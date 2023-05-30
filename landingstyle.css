@@ -1,100 +1,75 @@
-/* Reset */
+/* Reset default styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background image and darken it */
 body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header */
-  header {
-    background-color: rgba(247, 247, 247, 0.9);
-    padding: 20px;
-    position: relative;
-    z-index: 2;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li:last-child {
-    margin-right: 0;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 5px 10px;
-    border: 1px solid #333;
-    border-radius: 3px;
-  }
-  
-  /* Content */
-  .content {
-    position: relative;
-    z-index: 2;
-  }
-  
-  main {
-    text-align: center;
-    margin-top: 50px;
-    position: relative;
-    z-index: 2;
-  }
-  
-  h1 {
-    font-size: 32px;
-    color: #333;
-  }
-  
-  p {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-justify: auto;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    background-color: #555;
-  }
-  
-  /* Footer */
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f7f7f7;
-    color: #666;
-    text-align: center;
-    
-  }
-  
-  /* Background */
-  body {
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fit;
-    height: 100vh;
-  }
-  
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.7); /* Darken the background */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Adjust header styles */
+header {
+  margin-bottom: 20px;
+  text-align: right; /* Align the navigation to the right */
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Justify align the main content */
+main {
+  text-align: justify;
+}
+
+/* Style the About and Call to Action buttons */
+.about-button,
+.cta-button {
+  display: block;
+  margin: 0 auto; /* Center align the buttons */
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+/* Style the Cup of Mind heading */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow effect to the heading */
+  text-align: center; /* Center align the heading */
+}
+
+/* Position the footer */
+footer {
+  position: relative;
+  margin-top: 20px;
+}
