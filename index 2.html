@@ -4,54 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cup of Mind </title>
+  <title>Cup of Mind</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="container">
-    <h1>Complete these sentences in detail to get better prompt. </h1>
+    <h1>Complete these sentences in detail to get a better prompt.</h1>
     <form id="promptForm">
-      <label for="question1">I am seeking counseling to</label>
+      <label for="question1">My name is</label>
       <input type="text" id="question1" required>
 
-      <label for="question2">My name is</label>
-      <input type="text" id="question2" required>
-      
-      <label for="question3">My age is</label>
-      <input type="number" id="question3" required>
-      
-      <label for="question4">My pronouns are</label>
+      <label for="question2">My age is</label>
+      <input type="number" id="question2" required>
+
+      <label for="question3">I am seeking counseling because</label>
+      <input type="text" id="question3" required>
+
+      <label for="question4">My support system includes</label>
       <input type="text" id="question4" required>
-      
-      <label for="question5">I belong to this country</label>
+
+      <label for="question5">The language I prefer is</label>
       <input type="text" id="question5" required>
-      
-      <label for="question6">My emotional state can be best described as</label>
-      <input type="text" id="question6" required>
-      
-      <label for="question7">My personal support system includes</label>
-      <input type="text" id="question7" required>
-      
-      <label for="question8">I want counselling to help me achieve</label>
-      <input type="text" id="question8" required>
-      
-      <label for="question9">I have been through</label>
-      <input type="number" id="question9" required>
-      <label for="question9">counseling/therapy sessions before.</label>
-      
+
       <button type="submit">Generate Prompt</button>
     </form>
-    <div id="resultBox" style="display: none;">
-      <div id="instructions">
-        <p>Congratulations!!! To proceed, copy the content in the field below and paste it into a new chat of Chat GPT.</p>
-      </div>
-    
-      <div id="generatedPrompt"></div>
-    </div>
-  
-    
-  
+  </div>
 
   <script type="module" src="script.js"></script>
 </body>
