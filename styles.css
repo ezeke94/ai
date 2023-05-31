@@ -3,6 +3,19 @@ body {
   margin: 20px;
   padding: 0;
   background-color: #97e3cc;
+  color: #000; /* Change font color to black */
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.7); /* Darken the background */
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 20px;
 }
 
 .container {
