@@ -3,16 +3,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #97e3cc;
-}
-
-body {
   background-image: url("background.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.7); /* Darken the background */
   color: #000; /* Change font color to black */
-  font-family: Arial, sans-serif;
   font-weight: bold;
   line-height: 1.5;
   padding: 20px;
@@ -26,14 +22,13 @@ h1 {
 
 p1 {
   text-align: left;
-  color: #fff;
-  margin-top: auto;
-  padding-top: 20%;
+  color: #000000;
+  margin-top: 20px;
 }
 
 a {
   text-align: left;
-  color: #fff;
+  color: #000000;
 }
 
 .container {
