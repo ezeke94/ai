@@ -1,75 +1,87 @@
-/* Reset default styles */
-html, body {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* Set background image and darken it */
-body {
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.7); /* Darken the background */
-  color: #fff;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  line-height: 1.5;
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #000000;
+  text-align: right;
+}
+
+.background {
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
 }
 
-/* Adjust header styles */
-header {
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
   margin-bottom: 20px;
-  text-align: right; /* Align the navigation to the right */
+  color: #333;
 }
 
-header ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-header ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-header ul li a {
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #333;
   color: #fff;
   text-decoration: none;
-}
-
-/* Justify align the main content */
-main {
-  text-align: justify;
-}
-
-/* Style the About and Call to Action buttons */
-.about-button,
-.cta-button {
-  display: block;
-  margin: 0 auto; /* Center align the buttons */
-  background-color: #ffffff;
-  color: #000000;
-  padding: 20px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
-  text-align: center;
-}
-
-/* Style the Cup of Mind heading */
-h1 {
-  font-size: 36px;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow effect to the heading */
-  text-align: center; /* Center align the heading */
 }
 
-/* Position the footer */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.disclaimer {
+  font-size: 14px;
+  color: #333;
+}
+
 footer {
-  position: relative;
-  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: #fff;
+
 }
