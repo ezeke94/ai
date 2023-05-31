@@ -46,22 +46,3 @@ form button {
   border-radius: 4px;
   cursor: pointer;
 }
-
-#generatedPrompt {
-  margin-top: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-#resultBox {
-  display: none;
-}
-/* Background */
-body {
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: fit;
-  height: 100vh;
-}
