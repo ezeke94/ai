@@ -6,11 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cup of Mind</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add CSS styles here for mobile optimization */
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /* Media query for smaller screens */
+    @media (max-width: 600px) {
+      .container {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>Complete these sentences in detail to get a better prompt.</h1>
+    <h1>Complete these sentences in detail.</h1>
     <form id="promptForm">
       <label for="question1">My name is</label>
       <input type="text" id="question1" required>
